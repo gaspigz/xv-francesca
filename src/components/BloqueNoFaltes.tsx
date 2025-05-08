@@ -16,6 +16,8 @@ const BloqueNoFaltes: React.FC<BloqueFotoProps> = ({ bgImage, text }) => {
       
     >
       <img className='w-[95%] mt-[65vh]' src={nofaltes} alt="" />
+      {text}
+
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import BloqueUno from "./components/BloqueUno";
-import BloqueDos from "./components/BloqueDos";
 import BloqueTres from "./components/BloqueTres";
 import BloqueCuatro from "./components/BloqueCuatro";
 import BloqueFoto from "./components/BloqueFoto";

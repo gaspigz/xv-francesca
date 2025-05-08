@@ -17,6 +17,7 @@ const BloqueRegalos: React.FC<BloqueFotoProps> = ({ bgImage, text }) => {
       }}
     >
       <img src={regalosImage} alt="Regalos" className="w-[75%] mt-[60vh]" />
+      {text}
     </div>
   );
 };
