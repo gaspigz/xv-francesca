@@ -1,5 +1,5 @@
 import bgImage from '../assets/vert1.jpg'; // adjust path if needed
-import logo from '../assets/111blanco.png'; // adjust path if needed
+import logo from '../assets/logobla.png'; // adjust path if needed
 
 const BloqueUno = () => {
   return (
@@ -11,8 +11,7 @@ const BloqueUno = () => {
       }}
       
     >
-      <img className='w-1/2 shadow' src={logo} alt="" />
-      <h3 className='text-white mt-2 shadow text-3xl'>30.05.2025</h3>
+      <img className='w-1/3 mr-32 mt-[20vh]' src={logo} alt="" />
     </div>
   );
 };

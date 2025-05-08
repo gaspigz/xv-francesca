@@ -1,5 +1,5 @@
-import itfiesta2 from "../assets/itfiesta2.png";
-import itrel2 from "../assets/itrel2.png";
+import itfiesta2 from "../assets/card1.png";
+import itrel2 from "../assets/card2.png";
 import bgImage from "../assets/azul1.jpg";
 
 const bloqueData = [
@@ -25,16 +25,7 @@ const bloqueData = [
         Por favor, sé puntual. Finaliza 4:00 hs.
       </>
     ),
-  },
-  {
-    img: itrel2,
-    alt: "Dress Code",
-    title: "Dress Code",
-    content: <>
-      <span className="text-2xl">Formal</span> <br />
-      Elegante, sofisticada
-    </>
-  },
+  }
 ];
 
 const BloqueTres = () => {
@@ -53,11 +44,9 @@ const BloqueTres = () => {
         {bloqueData.map((item, index) => (
           <div
             key={index}
-            className="flex min-h-[55vh] flex-col items-center justify-center rounded-xl py-10 px-4 shadow-lg bg-slate-200 bg-opacity-80"
+            className="flex min-h-[55vh] flex-col items-center justify-center rounded-xl min-w-[80vw] py-10 px-4 shadow-lg bg-slate-200 bg-opacity-10"
           >
-            <img src={item.img} alt={item.alt} className="w-32 h-auto mb-4" />
-            <h1 className="text-4xl font-bold text-center">{item.title}</h1>
-            <p className="text-center text-lg mt-1">{item.content}</p>
+            <img src={item.img} alt={item.alt} className={index == 1 ? 'w-40 h-auto mb-4' : 'w-64 h-auto mb-4'} />
           </div>
         ))}
       </div>
