@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import regalos from "../assets/regalos.png";
 import canciones from "../assets/canciones.png";
 
@@ -11,12 +12,12 @@ const BloqueCuatro = () => {
           alt="Regalos"
           className="w-full h-auto mb-4"
         />
-        <a
+        <Link
+          to="/regalos"
           className="mt-2 px-8 py-3 bg-slate-100 text-gray-500 border-2 border-slate-500 text-lg rounded-full shadow-md hover:bg-slate-200 transform hover:scale-105 transition duration-200"
-          href="#regalos"
         >
           Regalos
-        </a>
+        </Link>
       </div>
 
       {/* Song Suggestion Block */}
@@ -29,6 +30,8 @@ const BloqueCuatro = () => {
         <a
           className="mt-2 px-8 py-3 bg-slate-100 text-gray-500 border-2 border-slate-500 text-lg rounded-full shadow-md hover:bg-slate-200 transform hover:scale-105 transition duration-200"
           href="https://docs.google.com/forms/d/e/1FAIpQLSemG_K4jbiyJlCf67_ZDH9lqZFB_fL1We_5BY_QX_A0XTcC7A/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Sugerir
         </a>
