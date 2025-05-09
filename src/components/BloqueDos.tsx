@@ -37,14 +37,14 @@ const BloqueDos: React.FC = () => {
   if (timeLeft.total <= 0) {
     return (
       <div className="text-center w-full bg-slate-100 p-8">
-        <h2 className="text-3xl text-red-500 font-bold">¡Es la hora!</h2>
+        <h2 className="text-3xl text-red-500 font-bold">¡ES LA HORA!</h2>
       </div>
     );
   }
 
   return (
     <div className="text-center bg-slate-100 w-full p-8">
-      <h2 className="text-3xl font-light mb-3">Tan sólo faltan</h2>
+      <h2 className="text-3xl font-light mb-3">TAN SÓLO FALTAN</h2>
       <div className="flex justify-center gap-4 text-xl">
         <div>
           <span className="font-bold text-4xl">{timeLeft.days}</span><br />días
