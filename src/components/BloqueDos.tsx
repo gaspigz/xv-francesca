@@ -44,7 +44,7 @@ const BloqueDos: React.FC = () => {
 
   return (
     <div className="text-center bg-slate-100 w-full p-8">
-      <h2 className="text-3xl font-light mb-3">TAN SÓLO FALTAN</h2>
+      <h2 className="text-xl font-light mb-3">TAN SÓLO FALTAN</h2>
       <div className="flex justify-center gap-4 text-xl">
         <div>
           <span className="font-bold text-4xl">{timeLeft.days}</span><br />días
