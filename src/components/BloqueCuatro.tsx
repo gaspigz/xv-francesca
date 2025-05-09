@@ -28,7 +28,7 @@ const BloqueCuatro = () => {
         />
         <a
           className="mt-2 px-8 py-3 bg-slate-100 text-gray-500 border-2 border-slate-500 text-lg rounded-full shadow-md hover:bg-slate-200 transform hover:scale-105 transition duration-200"
-          href="#sugerir"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSemG_K4jbiyJlCf67_ZDH9lqZFB_fL1We_5BY_QX_A0XTcC7A/viewform"
         >
           Sugerir
         </a>

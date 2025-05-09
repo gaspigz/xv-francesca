@@ -11,7 +11,7 @@ const BloqueUno = () => {
       }}
       
     >
-      <img className='w-1/3 mr-32 mt-[20vh]' src={logo} alt="" />
+      <img className='w-1/3 md:w-1/4 mr-32 md:m-0 mt-[20vh]' src={logo} alt="" />
     </div>
   );
 };

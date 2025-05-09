@@ -4,6 +4,7 @@ import BloqueCuatro from "./components/BloqueCuatro";
 import BloqueFoto from "./components/BloqueFoto";
 import BloqueRegalos from "./components/BloqueRegalos";
 import BloqueNoFaltes from "./components/BloqueNoFaltes";
+import BloqueDos from "./components/BloqueDos";
 
 import bgImage1 from './assets/azul1.jpg'; // adjust path if needed
 import bgImage2 from './assets/azul2.jpg'; // adjust path if needed
@@ -20,6 +21,7 @@ function App() {
     <>
       <div className="flex flex-col items-center justify-center">
         <BloqueUno></BloqueUno>
+        <BloqueDos></BloqueDos>
         <BloqueTres></BloqueTres>
         <BloqueFoto text={""} bgImage={bgImage2}></BloqueFoto>
         <BloqueFoto text={""} bgImage={bgImage1}></BloqueFoto>

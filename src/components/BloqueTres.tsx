@@ -44,7 +44,7 @@ const BloqueTres = () => {
         {bloqueData.map((item, index) => (
           <div
             key={index}
-            className="flex min-h-[55vh] flex-col items-center justify-center rounded-xl min-w-[80vw] py-10 px-4 shadow-lg bg-slate-200 bg-opacity-10"
+            className="flex min-h-[55vh] flex-col items-center justify-center rounded-xl min-w-[80vw] md:min-w-[25vw] py-10 px-4 shadow-lg bg-slate-200 bg-opacity-10"
           >
             <img src={item.img} alt={item.alt} className={index == 1 ? 'w-40 h-auto mb-4' : 'w-64 h-auto mb-4'} />
           </div>
